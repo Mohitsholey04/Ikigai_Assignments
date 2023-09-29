@@ -1,0 +1,33 @@
+/* Part 1/4 - Use the CSS element type selectors to target the text elements inside the "part-one" div and color them all GREEN */
+
+.part-one h2,
+.part-one p,
+.part-one a {
+  color: green;
+}
+
+
+/* Part 2/4 - Use a CSS element descendant selector(s) to color the all the span tags RED in the "part-two" div */
+
+.part-two span {
+    color: red;
+}
+
+/* Part 3/4 - Use CSS Class selectors to give each element inside the "part-three" div its' corresponding class name background color
+ */
+.part-three .background-yellow {
+    background-color: yellow;
+}
+.part-three .background-pink {
+    background-color: pink;
+}
+
+/* Part 4/4 - Use CSS Class & Class Descendant selectors to give each span element inside the "part-four" div its respective class name text color */
+
+.part-four .red-text {
+    color: red;
+}
+  
+.part-four .blue-text {
+    color: blue;
+}
