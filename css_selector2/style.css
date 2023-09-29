@@ -1,0 +1,117 @@
+/* 1. */
+
+h2{
+    color: purple;
+}
+
+/* 2. */
+
+body{
+    background: #bdc3c7;
+}
+
+/* 3.  */
+
+h1{
+    color: #9b59b6;
+}
+
+/* 4. */
+
+h2{
+    color: orange;
+}
+
+/* 5. */
+
+li{
+    color: #4169E1;
+}
+
+/* 6. */
+
+p {
+    background-color: yellow;
+}
+
+/* 7. */
+
+input {
+    border: 3px solid red;
+}
+
+/* 8. */
+
+.hello {
+    background-color: white;
+}
+
+/* 9. */
+
+#special {
+    border: 2px solid rgb(21, 21, 133); 
+}
+
+/* 10. */
+
+div p {
+    font-size: 25px;
+}
+
+/* 11. */
+
+input[type="text"] {
+    background-color: gray;
+}
+
+/* 12. */
+
+.d3 p {
+    background-color: pink;
+}
+
+/* 13. */
+
+.d3 .p2{
+    border: 5px solid white;
+}
+
+div em {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/* bonus */
+
+/* 1. */
+
+input[type="checkbox"]:checked {
+    margin-left: 50px;
+}
+
+/* 2. */
+
+label {
+    text-transform: uppercase;
+}
+
+/* 3. */
+
+#special::first-letter {
+    color: green;
+    font-size: 100px;
+}
+
+/* 4. */
+
+h1:hover {
+    color: blue;
+}
+
+/* 5. */
+
+a:visited {
+    color: gray;
+}
