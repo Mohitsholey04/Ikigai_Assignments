@@ -1,0 +1,96 @@
+html{
+    font-size: 5px;
+    padding: 0;margin: 0;
+}
+
+.header{background-color:tomato ;height: 10%;}
+.nav{background-color: blueviolet;height: 10%;}
+.content{background-color:dodgerblue ;height:70%}
+.aside1{background-color:palegreen ;height:70%}
+.aside2{background-color:plum ;height:70%}
+.footer{background-color:gold ;height:5%}
+
+
+.container{
+text-align: center;
+font-family: cursive;
+font-size: 5rem;
+display: flex;
+flex-flow: row wrap;
+height: 100vh;
+color: azure;
+}
+nav ul{
+list-style: none;
+display: flex;
+justify-content: end;
+align-items: center;
+
+}
+nav a{
+    text-decoration: none;
+    padding: 0px 2rem;
+    font-size: 2rem;
+    color:white;
+}
+
+.container>*
+{
+padding: 1rem;
+flex:0 1 100%;
+}
+
+
+
+@media(max-width:599px)
+{
+    .nav ul{
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+    .nav li{ padding: 0;margin: 0;
+    list-style: none;}
+    .nav a{
+        font-size: 12px;
+        padding: 0px;
+        margin: 0px
+    }
+    .container>*
+    {
+        height: auto;
+    }
+
+}
+
+
+@media(min-width:600px)
+{
+    .aside{
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: 0%;
+    }
+    .container>*
+    {
+        height: auto;
+    }
+
+}
+@media(min-width:1024px)
+{
+    .content{
+        flex:3 0 0%;
+    }
+    .container{
+        .header{
+            order: 1;}  
+        .nav{order:2;}
+        .aside1{order:3;}
+        .content{order: 4;}
+        .aside2{order: 5;}
+        .footer{order: 6;}
+
+    }
+}
